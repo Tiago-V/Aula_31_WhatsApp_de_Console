@@ -1,3 +1,5 @@
+using System.IO;
+
 namespace WppConsole
 {
     public class Mensagem
@@ -5,6 +7,15 @@ namespace WppConsole
         public string Texto { get; set; }
         
         public Contato Destinatario { get; set; } 
+
+        private const string PATH = "Database/mensagens.csv";
+        public Mensagem(){
+            //Cria o arquivo caso não exista
+            if(!File.Exists(PATH))
+            {
+                File.Create(PATH).Close();
+            }
+        }
 
         /// <summary>
         /// Enviar mensagem
@@ -17,7 +28,15 @@ namespace WppConsole
             
             Texto = System.Console.ReadLine();
 
+            string[] linhas = new string[] { PrepararLinhaCSV(_contato) };
+            File.AppendAllLines(PATH, linhas);
+
             return $"Texto: {Texto}\nPara: {Destinatario.Nome} - {Destinatario.Telefone}";
         }
+        public string PrepararLinhaCSV(Contato c){
+            
+            return $"texto={Texto};nomecontato={Destinatario.Nome};telefonecontato={Destinatario.Telefone};";
+
         }
+    }
 }

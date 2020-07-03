@@ -15,7 +15,7 @@ namespace WppConsole
             // Instanciar Contatos
             Contato c1 = new Contato("Pedro", "+55 11 997849031");
             Contato c2 = new Contato("Tiago", "+55 11 997849032");
-            Contato c3 = new Contato("João" , "+55 11 997849033");
+            Contato c3 = new Contato("Joao ", "+55 11 997849033");
             Contato c4 = new Contato("Maria", "+55 11 997849034");
 
             // Adicionar Contatos
@@ -29,6 +29,11 @@ namespace WppConsole
 
             // Excluir
             agenda1.Excluir(c3);
+
+            // Alterar Contato
+            Contato c5 = new Contato("Hagi ", "+55 11 994693241");
+
+            agenda1.Alterar(c2, c5);
 
             // Pular linha
             System.Console.WriteLine();

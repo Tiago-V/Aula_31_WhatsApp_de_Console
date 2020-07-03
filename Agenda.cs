@@ -9,7 +9,7 @@ namespace WppConsole
 
         List<Contato> contatos = new List<Contato>();
 
-        private const string PATH = "Database/produto.csv";
+        private const string PATH = "Database/agenda.csv";
         private const string Folder = "C:/Users/User/Desktop/EAD SENAI/EAD DEV/Aula_31/WppConsole/Database";
 
         public Agenda()
@@ -49,6 +49,13 @@ namespace WppConsole
             {
                 contatos.Remove(_contato);
             }
+        }
+
+        public void Alterar(Contato _contato, Contato _contatoAlterado)
+        {
+            contatos.Remove(_contato);
+
+            contatos.Add(_contatoAlterado);
         }
 
         // Adicionar a lista e mostrar
