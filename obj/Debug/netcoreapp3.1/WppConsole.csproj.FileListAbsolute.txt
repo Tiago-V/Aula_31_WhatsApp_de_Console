@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\bin\Debug\netcoreapp3.1\WppConsole.exe
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\bin\Debug\netcoreapp3.1\WppConsole.deps.json
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\bin\Debug\netcoreapp3.1\WppConsole.runtimeconfig.json
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\bin\Debug\netcoreapp3.1\WppConsole.runtimeconfig.dev.json
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\bin\Debug\netcoreapp3.1\WppConsole.dll
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\bin\Debug\netcoreapp3.1\WppConsole.pdb
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\obj\Debug\netcoreapp3.1\WppConsole.csprojAssemblyReference.cache
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\obj\Debug\netcoreapp3.1\WppConsole.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\obj\Debug\netcoreapp3.1\WppConsole.AssemblyInfo.cs
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\obj\Debug\netcoreapp3.1\WppConsole.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\obj\Debug\netcoreapp3.1\WppConsole.dll
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\obj\Debug\netcoreapp3.1\WppConsole.pdb
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\Aula_31\WppConsole\obj\Debug\netcoreapp3.1\WppConsole.genruntimeconfig.cache
