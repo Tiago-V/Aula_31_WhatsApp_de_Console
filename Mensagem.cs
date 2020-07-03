@@ -17,7 +17,7 @@ namespace WppConsole
             
             Texto = System.Console.ReadLine();
 
-            return $"Texto: {Texto}\nPara: {Destinatario.Nome} {Destinatario.Telefone}";
+            return $"Texto: {Texto}\nPara: {Destinatario.Nome} - {Destinatario.Telefone}";
         }
         }
 }
